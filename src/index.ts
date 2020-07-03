@@ -4,8 +4,7 @@ function range(
   step = 1,
   offset = 0
 ): number[] | undefined {
-  // return early if start of end are not numbers
-  if (Number.isNaN(start) || Number.isNaN(end)) return undefined;
+  if (isNaN(start) || isNaN(end)) return undefined;
   // if only passed a single arg, rerun function with it as the 'end'
   if (arguments.length === 1) return range(0, start);
 
