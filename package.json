@@ -1,6 +1,6 @@
 {
   "name": "@mcansh/number-range-ponyfill",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "a ponyfill for Number.range",
   "repository": "mcansh/number-range-ponyfill",
   "license": "MIT",
