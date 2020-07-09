@@ -37,6 +37,10 @@ class Range {
       .fill(null)
       .map((_, index) => startingPoint + stepSize * index);
   }
+
+  public static whatItDo() {
+    console.log('!!!!');
+  }
 }
 
 export { Range };
